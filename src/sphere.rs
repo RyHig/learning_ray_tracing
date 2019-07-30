@@ -24,7 +24,7 @@ impl Sphere {
         if discriminant < 0.0 {
             -1.0
         } else {
-            (-b - discriminant.sqrt()) / (2.0 * a)
+            (-b - discriminant.sqrt()) / a
         }
     }
 }

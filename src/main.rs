@@ -40,7 +40,7 @@ fn main() {
             let u: f64 = (f64::from(i))/(f64::from(nx));
             let v: f64 = (f64::from(j))/(f64::from(ny));
             let r = c.get_ray(u, v);
-            let mut col = 255.0*color(r);
+            let mut col = 255.0 * color(r);
 
         println!("{} {} {}", col.r() as u8, col.g() as u8, col.b() as u8);
         }
